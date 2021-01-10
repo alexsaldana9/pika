@@ -108,6 +108,10 @@ section#contact {
       min-height: 1000px;
   } */
 
+  #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
+    color: #000000;
+  }
+
 @media (max-width: 1200px) { 
     .carousel .carousel-item {
       height: 400px;
@@ -121,5 +125,11 @@ section#contact {
   }
   #carouselExampleIndicators {
     height: 200px;
+  }
+}
+
+@media (max-width: 768px) { 
+  .modal-content {
+    width: 70%;
   }
 }
