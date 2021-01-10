@@ -7,6 +7,10 @@
     width: 35%;
 }
 
+#mainNav .navbar-brand img {
+  height: 4rem;
+  transition: height 0.3s ease-in-out;
+}
 
 .modal-content {
     display: block;
@@ -127,6 +131,7 @@ section#contact {
     height: 200px;
   }
 }
+
 
 @media (max-width: 768px) { 
   .modal-content {
